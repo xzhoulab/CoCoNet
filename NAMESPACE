@@ -1,0 +1,4 @@
+useDynLib(CoCoNet, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+importFrom(stats, optim)
+exportPattern("^[[:alpha:]]+")

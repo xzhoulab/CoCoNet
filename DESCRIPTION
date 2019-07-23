@@ -1,0 +1,12 @@
+Package: CoCoNet
+Type: Package
+Title: Leveraging Gene Co-expression Pattern to Infer Trait-Relevant Tissues in Genome-wide Association Studies
+Version: 1.0
+Date: 2019-07-07
+Author: Lulu Shang
+Maintainer: Lulu Shang <shanglu@umich.edu>
+Description: CoCoNet incorporates tissue-specific gene co-expression networks constructed from either bulk or single cell RNA sequencing studies into GWAS data for trait-tissue inference. In particular, CoCoNet relies on a covariance regression network model to express gene-level effect sizes for the given GWAS trait as a function of the tissue-specific co-expression adjacency matrix. With a composite likelihood-based inference algorithm, CoCoNet is scalable to tens of thousands of genes. 
+License: GPL-3
+Imports: Rcpp (>= 1.0.1)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 6.1.1
